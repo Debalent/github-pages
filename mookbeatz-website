@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MookBeatz Collaborations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Collaborations</h1>
+  </header>
+  <section id="collaborations">
+    <div class="collaboration">
+      <h2>Collaborator Name</h2>
+      <img src="collaborator-image-url" alt="Collaborator">
+      <p>Description of the collaborator and the project you worked on together.</p>
+      <p>Check out our project: <a href="project-link" target="_blank">Project Title</a></p>
+    </div>
+    <!-- Add more collaboration sections as needed -->
+  </section>
+</body>
+</html>
+#collaborations {
+  text-align: left;
+  padding: 20px;
+}
+
+.collaboration {
+  margin-bottom: 30px;
+}
+
+.collaboration img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.collaboration h2 {
+  font-size: 1.5em;
+}
+
+.collaboration a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.collaboration a:hover {
+  text-decoration: underline;
+}
